@@ -80,6 +80,11 @@ nav {
 
 /* main body*/
 
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
 .sector {
     display: inline-block;
     width: auto;

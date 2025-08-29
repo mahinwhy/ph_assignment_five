@@ -1,0 +1,52 @@
+/* navbar*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 60px;
+    background-color: #FFFFFF;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoimg {
+    background-image: url("../assets/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.logotext {
+    color: rgba(0, 103, 71, 1);
+    line-height: 1.2;
+}
+
+.navright {
+    display: flex;
+    gap: 20px;
+}
+
+.rounddisplay {
+    background-color: rgba(65, 255, 107, 0.1);
+    font-weight: bold;
+
+}
+
+.copybox {
+    background-color: rgba(0, 166, 62, 1);
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}

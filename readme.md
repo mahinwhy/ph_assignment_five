@@ -34,18 +34,18 @@
 
 ## 3. What is Event Bubbling and how does it work?
 
-  When an event starts at a specific element and then propagates through its parent and ancestor elements until it reaches the document's root.
+    When an event starts at a specific element and then propagates through its parent and ancestor elements until it reaches the document's root.
 
-  Clicking a button inside a div will firstly trigger buttons handler, then the div, then main, then body and so on.
+    Clicking a button inside a div will firstly trigger buttons handler, then the div, then main, then body and so on.
 
 ## 4. What is Event Delegation? Why is it useful?
 
-  When we attch a single event listener in the parent node instead of all child, it is called event delegation.
+    When we attch a single event listener in the parent node instead of all child, it is called event delegation.
 
-  When we add child element after the page have been loaded, event delegation can handle them.
+    When we add child element after the page have been loaded, event delegation can handle them.
 
 ## 5. Difference between preventDefault() and stopPropagation()
 
-  preventDefault() stops a browsers default behavior attached with a specific element. When we want to stop the browser from reloading when we submit a form, we can use this.
+    preventDefault() stops a browsers default behavior attached with a specific element. When we want to stop the browser from reloading when we submit a form, we can use this.
 
-  stopPropagation() stops propagating in bubbling. When we have a event listener at a div and also in a button on the div, clicking on the button will trigger both listener. So we can call stopPropagation() to stop one listener.
+    topPropagation() stops propagating in bubbling. When we have a event listener at a div and also in a button on the div, clicking on the button will trigger both listener. So we can call stopPropagation() to stop one listener.

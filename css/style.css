@@ -107,6 +107,10 @@ main{
     gap: 8px;
 }
 
-.buttontwo {
+.copyButton {
+    display: flex;
+}
+
+.callButton {
     display: flex;
 }

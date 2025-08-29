@@ -418,6 +418,23 @@
             callHistoryList.innerHTML = "";
         });
 
+        document.querySelectorAll(".copyButton").forEach(button => {
+            button.addEventListener("click", (event) => {
+                const copyButton = event.currentTarget;
+                const card = copyButton.closest(".simplecard");
+                const serviceNumber = card.querySelector(".serviceNumber").innerText.trim();
+
+                navigator.clipboard.writeText(serviceNumber);
+
+                alert(`Hotline number ${serviceNumber} copied!`);
+
+                const copyCounterElem = document.querySelector(".copyNumber");
+                let currentCopy = parseInt(copyCounterElem.innerText) || 0;
+
+                currentCopy += 1;
+                copyCounterElem.innerText = `${currentCopy} copy`;
+            });
+        });
 
     </script>
 

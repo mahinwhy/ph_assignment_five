@@ -51,9 +51,9 @@
         </div>
     </header>
 
-    <main>
+    <main class="flex flex-wrap gap-6 p-4">
 
-        <div class="grid grid-cols-3 gap-6 p-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1 cardsGrid">
 
             <div
                 class="w-[360px] h-[360px] p-4 bg-white rounded-2xl shadow-md flex flex-col justify-between simplecard">
@@ -337,8 +337,7 @@
         </div>
 
         <div
-            class="flex flex-col w-[380px] h-[1138px] gap-4 p-4 m-2 rounded-2xl shadow-[0_4px_6px_rgba(0,0,0,0.15)] callHistorySection">
-
+            class="flex flex-col w-full sm:w-[380px] gap-4 p-4 rounded-2xl shadow-[0_4px_6px_rgba(0,0,0,0.15)] callHistorySection">
             <div class="flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <img src="assets/clock.png" alt="history icon" class="w-6 h-6" />

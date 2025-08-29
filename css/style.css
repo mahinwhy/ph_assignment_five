@@ -76,3 +76,32 @@ nav {
     font-weight: 600;
     max-width: 800px;
 }
+
+
+/* main body*/
+
+.sector {
+    display: inline-block;
+    width: auto;
+    max-width: max-content;
+    background-color: rgba(242,242,242,1);
+    color: rgba(92,92,92,1);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 9999px;
+    padding: 4px 12px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+
+
+.buttonstwo {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.buttontwo {
+    display: flex;
+}
